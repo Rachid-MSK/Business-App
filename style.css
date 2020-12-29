@@ -1,0 +1,88 @@
+body{
+    background: url(images/business.jpg)
+    no-repeat center center fixed;
+    background-size: cover;
+    font-family: sans-serif;
+
+}
+header{
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+}
+.head{
+    color: blueviolet;
+    font-size: 0.8rem; /* 1rem=16px */
+    word-spacing: 0.7rem;
+    float: left;
+}
+nav{
+    float: right;
+}
+ul{
+    border-left: 5px solid coral;
+}
+li{
+    display: inline;
+    padding-right: 1.7rem;
+}
+li a{
+    color: rgb(207, 40, 40);
+    text-decoration: none;
+    font-weight: bolder;
+}
+.quote{
+    background-color: chartreuse;
+    padding: 0.5rem 1rem;
+    border-radius: 1.7rem;
+
+}
+.container{
+    width: 70%;
+    margin: auto;
+    overflow: hidden;
+    margin-top: 5rem;
+}
+showcase h1{
+    font-size: 4rem;
+    color: coral;
+    margin-bottom: 0;
+}
+showcase h3{
+    font-size: 2rem;
+    color: rgb(72, 228, 96);
+    letter-spacing: 0.2rem;
+    margin-top: 0.5rem;
+
+}
+showcase p{
+    color: rgb(17, 8, 8);
+    font-family: cursive;
+    font-size: 1.5rem;
+}
+a button{
+    background-color: rgb(119, 52, 52);
+    color: rgb(41, 165, 165);
+    border: 2px solid red;
+    border-radius: 1.3rem;
+    margin-top: 1.2rem;
+    padding: 0.8rem;
+}
+aside{
+    width: 90%;
+    margin: auto;
+    color: rgb(205, 255, 24);
+    font-size: 1.2rem;
+    text-align: right;
+}
+.price{
+    color: rgb(9, 212, 43);
+    font-weight: bolder;
+    font-size: 3rem;
+}
+.btn{
+    color: white;
+    background-color:indigo;
+    border: none;
+    border-radius: 15px;
+}
